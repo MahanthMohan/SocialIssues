@@ -563,14 +563,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# interviews
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+.interviews .interview-item {
   box-sizing: content-box;
   min-height: 320px;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+.interviews .interview-item .interview-img {
   width: 90px;
   border-radius: 50%;
   margin: -40px 0 0 40px;
@@ -580,38 +580,38 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.testimonials .testimonial-item h3 {
+.interviews .interview-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
   color: #2c4964;
 }
 
-.testimonials .testimonial-item h4 {
+.interviews .interview-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 0 45px;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.interviews .interview-item .quote-icon-left, .interviews .interview-item .quote-icon-right {
   color: #b1a9fc;
   font-size: 26px;
 }
 
-.testimonials .testimonial-item .quote-icon-left {
+.interviews .interview-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.testimonials .testimonial-item .quote-icon-right {
+.interviews .interview-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
 
-.testimonials .testimonial-item p {
+.interviews .interview-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
@@ -623,12 +623,12 @@ section {
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
+.interviews .owl-nav, .interviews .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-.testimonials .owl-dot {
+.interviews .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -637,12 +637,12 @@ section {
   background-color: #ddd !important;
 }
 
-.testimonials .owl-dot.active {
+.interviews .owl-dot.active {
   background-color: #5846f9 !important;
 }
 
 @media (max-width: 767px) {
-  .testimonials {
+  .interviews {
     margin: 30px 10px;
   }
 }
